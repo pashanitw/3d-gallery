@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app="plunker">
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body ng-controller="MainCtrl">
+<div class="container">
+    <communicate>
+        <resource-card ng-repeat="item in items" item="item" index="$index"></resource-card>
+    </communicate>
+</div>
+
+</div>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.8/angular.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
